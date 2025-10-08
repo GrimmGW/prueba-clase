@@ -1,3 +1,85 @@
-.p{
-    color:aqua;
+
+p{
+
+    text-align: justify;
+    text-shadow: 4px 5px 3px grey;
+
+}
+
+#texto_azul{
+    color: cadetblue;
+}
+
+*{
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.texto_rojo{
+    color: red;
+}
+
+.borde{
+    border: 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.fondo{
+    background-color: coral;
+    background-image: url('photo-1506744038136-46273834b3fb.jpg');
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.margenes{
+    margin: 50px 20px 50px 20px;
+    padding: 20px 50px 20px 50px;
+    background-color: aquamarine;
+}
+
+a{
+    font-size: 2rem;
+}
+
+a:link{
+    color: rgb(246, 191, 41)
+}
+
+a:visited{
+    color: rgb(151, 126, 0);
+}
+
+a:hover{
+    color: lightgreen;    
+}
+
+a:active{
+    color: rgb(60, 112, 60);
+}
+
+ul li{
+    list-style-type: disc;
+    padding-left: 0;
+    list-style-position: outside;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: black 1px solid;
+}
+
+th{
+    background-color: tomato;
+    text-align: left;
+}
+
+tr:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
 }
